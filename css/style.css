@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+text-align: center;
+}
+
+ul,button{
+  text-align: left;
+  
+}
+
+body{
+  background-color: #F0F8FF;
+}
+.container-fluid{
+  text-align: center;
+}
+
+
+
+
