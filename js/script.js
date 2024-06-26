@@ -62,7 +62,7 @@ let showAlert = (mensagem, typer) => {
     let alertDiv = document.createElement('div');
     alertDiv.className = 'alert alert-' + typer;
     alertDiv.role = 'alert';
-    alertDiv.innerHTML = mensagem + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>';
+    alertDiv.innerHTML = mensagem;
 
     document.body.insertBefore(alertDiv, document.body.firstChild);
 
