@@ -43,6 +43,8 @@ let remove = (key) => {
     lista_produtos.splice(key, 1);
     localStorage.setItem('lista_produtos', JSON.stringify(lista_produtos));
 
+    showAlert('removido com sucesso!', 'success');
+
     atualizarLista();
 };
 
